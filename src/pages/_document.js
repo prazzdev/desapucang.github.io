@@ -5,7 +5,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <MetaTag title={'Desa Pucang, Kec. Bawang, Kab. Banjarnegara | Official Website'} />
+        <MetaTag />
       </Head>
       <body>
         <Main />
