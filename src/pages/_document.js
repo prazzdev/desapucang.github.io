@@ -1,4 +1,4 @@
-import MetaTag from '@/components/partials/MetaTag'
+import MetaTag from '@/components/MetaTag'
 import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
