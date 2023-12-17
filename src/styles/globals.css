@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #EEEEEE;
+    overflow-x: hidden;
+}
+
+nav::before {
+    content: '';
+    min-height: 7px;
+    min-width: 100vw;
+    background-color: salmon;
+}
+
+section#hero {
+    background-image: url('../../public/assets/images/panen-raya-polres-dan-petani-di-desa-pucang-kecamatan-bawang.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: -5em;
+}
+
+#tagline {
+    background-color: rgba(0, 0, 0, .4);
+}
+
+/* FONT FACE */
+@font-face {
+    font-family: 'InknutAntiqua-Regular';
+    src: url(../../public/assets/fonts/InknutAntiqua-Regular.ttf);
+}
+@font-face {
+    font-family: 'Inter-Bold';
+    src: url(../../public/assets/fonts/Inter-Bold.ttf);
+}
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url(../../public/assets/fonts/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: 'Inter-SemiBold';
+    src: url(../../public/assets/fonts/Inter-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'McLaren-Regular';
+    src: url(../../public/assets/fonts/McLaren-Regular.ttf);
+}
+
+.font-inknutantiqua-reg {
+    font-family: 'InknutAntiqua-Regular';
+}
+.font-inter-bold {
+    font-family: 'Inter-Bold';
+}
+.font-inter-semibold {
+    font-family: 'Inter-SemiBold';
+}
+.font-inter-reg {
+    font-family: 'Inter-Regular';
+}
+.font-mclaren-reg {
+    font-family: 'McLaren-Regular';
+}
