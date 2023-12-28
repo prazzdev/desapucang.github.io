@@ -76,3 +76,8 @@ section#hero {
     -ms-transition: .3s;
     -o-transition: .3s;
 }
+
+/* OverlayMenu */
+.menu:hover > h3 {
+    color: white;
+}
