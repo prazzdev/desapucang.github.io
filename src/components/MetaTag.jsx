@@ -1,6 +1,5 @@
 export default function MetaTag({ title }) {
     let pageTitle
-    console.log(title)
     if(title == undefined) {
         pageTitle = "Desa Pucang, Kec. Bawang, Kab. Banjarnegara | Unofficial Website"
     } else {

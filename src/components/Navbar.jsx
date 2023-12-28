@@ -5,7 +5,7 @@ export default function Navbar() {
     return (
         <>
         <nav className="flex flex-col bg-[#EEEEEE] overflow-x-hidden">
-            <div className="flex justify-between items-center my-7 px-[6em]">
+            <div className="flex justify-between items-center my-7 px-[6em] bg-red-">
                 <a 
                     href="/" id="logo" 
                     className="flex items-center">
@@ -23,18 +23,37 @@ export default function Navbar() {
                 <div id="navmenu" className="flex flex-col items-end bg-blue-">
                     <div className="flex items-center mb-5">
                         <Image src={'/assets/images/map.svg'} width={25} height={25} className="-mr-5" />
-                        <NavMenu text={'Peta Desa'} target={'#'} />
+                        <NavMenu text={'Peta Desa'} target={'/peta-desa'} />
                         |
-                        <NavMenu text={'Kontak'} target={'#'} />        
+                        <NavMenu text={'Kontak'} target={'/kontak'} />        
                         <input 
                             type="text" name="search" placeholder="Pencarian" 
                             className="font-inter-reg bg-transparent p-2 border-2 border-gray-700 rounded-lg" />
                     </div>
-                    <div className="">
+                    <div className="flex flex-wrap items-center bg-red-">
                         <NavMenu text={'Beranda'} target={'/'} />
-                        <NavMenu text={'Profil Desa'} target={'#'} />
-                        <NavMenu text={'Data Desa'} target={'#'} />
-                        <NavMenu text={'Regulasi'} target={'#'} />
+                        <NavMenu 
+                            text={'Pemerintahan Desa'} target={'#'} haveChild={true}
+                            child={[
+                                {title: 'Visi Misi'},
+                                {title: 'Pemerintah Desa'},
+                                {title: 'Profil Wilayah Desa'},
+                                {title: 'Sejarah Desa'}
+                            ]} 
+                        />
+                        <NavMenu 
+                            text={'Data Desa'} target={'#'} haveChild={true}
+                            child={[
+                                {title: 'Data Wilayah Administratif'},
+                                {title: 'Data Pendidikan dalam KK'},
+                                {title: 'Data Pekerjaan'},
+                                {title: 'Data Usia'},
+                            ]}
+                        />
+                        <NavMenu 
+                            text={'Regulasi'} target={'#'} haveChild={true}
+                            child={[{title: 'Produk Hukum'},{title: 'Informasi Publik'}]}
+                        />
                         <NavMenu text={'Galeri'} target={'/galeri'} />
                     </div>
                 </div>

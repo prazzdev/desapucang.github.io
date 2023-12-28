@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function ContentCard() {
     return (
         <>
-        <div className="card max-w-[240px] bg-gray-100 shadow-md">
+        <div className=" max-w-[240px] bg-gray-100 shadow-md">
             <figure className="w-full">
                 <Image src={'/assets/images/content1.jpeg'} width={350} height={100} />
             </figure>
