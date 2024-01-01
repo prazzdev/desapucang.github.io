@@ -1,11 +1,32 @@
 import Image from "next/image";
 import NavMenu from "./partials/NavMenu";
+import { useEffect } from "react";
 
 export default function Navbar() {
+    useEffect(() => {
+        const handleKeyPress = (e) => {
+            if(e.key == "Enter") {
+                alert("Under Maintenance!")
+            }
+        }
+
+        const searchInput = document.getElementById("search")
+
+        if(searchInput) {
+            searchInput.addEventListener('keydown', handleKeyPress)
+        }
+
+        return () => {
+            if(searchInput) {
+                searchInput.removeEventListener('keydown', handleKeyPress)
+            }
+        }
+
+    }, [])
     return (
         <>
         <nav className="flex flex-col bg-[#EEEEEE] overflow-x-hidden">
-            <div className="flex justify-between items-center my-7 px-[6em] bg-red-">
+            <div className="flex justify-between items-center my-9 px-[6em] bg-red-">
                 <a 
                     href="/" id="logo" 
                     className="flex items-center">
@@ -27,7 +48,7 @@ export default function Navbar() {
                         |
                         <NavMenu text={'Kontak'} target={'/kontak'} />        
                         <input 
-                            type="text" name="search" placeholder="Pencarian" 
+                            type="text" name="search" id="search" placeholder="Pencarian" 
                             className="font-inter-reg bg-transparent p-2 border-2 border-gray-700 rounded-lg" />
                     </div>
                     <div className="flex flex-wrap items-center bg-red-">

@@ -1,7 +1,7 @@
 export default function MetaTag({ title }) {
     let pageTitle
     if(title == undefined) {
-        pageTitle = "Desa Pucang, Kec. Bawang, Kab. Banjarnegara | Unofficial Website"
+        pageTitle = "Website Resmi Desa Pucang, Kec. Bawang, Kab. Banjarnegara | Unofficial Website"
     } else {
         pageTitle = title + " | Desa Pucang, Kec. Bawang, Kab. Banjarnegara"
     }

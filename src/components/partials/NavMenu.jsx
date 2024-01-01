@@ -16,8 +16,8 @@ export default function NavMenu({ text, target, haveChild, child }) {
                 </div>
                 <ul tabIndex={0} className="dropdown-content z-10 menu p-2 shadow-md bg-base-100 w-fit h-fit">
                     {
-                    child.map((child) => {
-                        return <li className="min-w-[200px] rounded-none -my-[.3em]"><a href={'/' + child.title.replaceAll(' ', '-').toLowerCase()}>{child.title}</a></li>
+                    child.map((child, i) => {
+                        return <li key={i} className="min-w-[200px] rounded-none -my-[.3em]"><a href={'/' + child.title.replaceAll(' ', '-').toLowerCase()}>{child.title}</a></li>
                     })
                     }
                 </ul>
