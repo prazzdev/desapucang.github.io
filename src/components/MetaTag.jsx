@@ -7,6 +7,8 @@ export default function MetaTag({ title }) {
     }
     return (
         <>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>{pageTitle}</title>
         <meta name="title" content="Desa Pucang, Kec. Bawang, Kab. Banjarnegara | Unofficial Website" />
         <meta name="description" content="Desa Pucang Bawang, terletak di Kabupaten Banjarnegara, menawarkan pesona keindahan alam pedesaan yang memikat hati. Dikelilingi oleh hijaunya perkebunan dan sawah yang menghampar luas, desa ini menggambarkan kehidupan masyarakat yang erat dengan alam. Rumah-rumah tradisional dengan atap anyaman dan halaman yang dihiasi tanaman hias menambah nuansa kesejukan dan keasrian. Masyarakat Desa Pucang Bawang dikenal ramah dan menjunjung tinggi nilai gotong royong, menciptakan suasana harmonis di tengah-tengah keindahan alamnya. Desa ini tidak hanya menawarkan pemandangan yang memesona, tetapi juga memperkaya pengalaman budaya dan kehidupan pedesaan yang autentik bagi setiap pengunjungnya." />
