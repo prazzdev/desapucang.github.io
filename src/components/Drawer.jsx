@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const Drawer = () => {
@@ -18,10 +19,39 @@ const Drawer = () => {
             <div className="drawer-side">
                 <label htmlFor="my-drawer" aria-label="close sidebar" className="drawer-overlay"></label>
                 <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
-                {/* Sidebar content here */}
-                <li><a>Sidebar Item 1</a></li>
-                <li><a>Sidebar Item 2</a></li>
-                
+                    <li><a href="/">Beranda</a></li>
+                    <li>
+                        <details>
+                        <summary>Pemerintahan Desa</summary>
+                        <ul>
+                            <li><Link href='/visi-misi'>Visi Misi</Link></li>
+                            <li><Link href='/pemerintah-desa'>Pemerintah Desa</Link></li>
+                            <li><Link href='/profil-wilayah-desa'>Profil Wilayah Desa</Link></li>
+                            <li><Link href='/sejarah-desa'>Sejarah Desa</Link></li>
+                        </ul>
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                        <summary>Data Desa</summary>
+                        <ul>
+                            <li><Link href='/data-wilayah-administratif'>Data Wilayah Administratif</Link></li>
+                            <li><Link href='/data-pendidikan-dalam-kk'>Data Pendidikan dalam KK</Link></li>
+                            <li><Link href='/data-pekerjaan'>Data Pekerjaan</Link></li>
+                            <li><Link href='/data-usia'>Data Usia</Link></li>
+                        </ul>
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                        <summary>Regulasi</summary>
+                        <ul>
+                            <li><Link href='/produk-hukum'>Produk Hukum</Link></li>
+                            <li><Link href='/informasi-publik'>Informasi Publik</Link></li>
+                        </ul>
+                        </details>
+                    </li>
+                    <li><Link href='/galeri'>Galeri</Link></li>
                 </ul>
             </div>
         </div>

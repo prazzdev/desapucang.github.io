@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-export default function NavMenu({ text, target, haveChild, child }) {
+export default function NavMenu({ text, target, haveChild, child, isMobile }) {
     if(haveChild ==  undefined) {
         return (
             <a href={target} className="font-inter-bold uppercase font-bold text-sm mx-[1.8em]">{text}</a>

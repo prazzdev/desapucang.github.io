@@ -1,9 +1,12 @@
 import Image from "next/image";
 
-export default function ContentCard() {
+export default function ContentCard({ animation="fade-in" }) {
     return (
         <>
-        <a href="#" className="max-w-[300px] lg:max-w-[240px] bg-gray-100 shadow-md mb-8 lg:mb-0 rounded-lg overflow-hidden">
+        <a 
+            href="#" className="max-w-[300px] lg:max-w-[240px] bg-gray-100 shadow-md mb-8 lg:mb-0 rounded-lg overflow-hidden" 
+            data-aos={animation} data-aos-offset="200"
+        >
             <figure className="w-full p-4">
                 <Image 
                     src={'/assets/images/content1.jpeg'} width={350} height={100} 

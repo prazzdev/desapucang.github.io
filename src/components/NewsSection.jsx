@@ -1,7 +1,7 @@
 import Image from "next/image";
 import ContentCard from "./ContentCard";
 
-export default function NewsSection() {
+export default function NewsSection({ cardAnimation }) {
     return (
         <>
         <section id="news" className="px-5 lg:px-[4em] pt-2 lg:pt-[2em] mt-2 lg:mt-4">
@@ -10,7 +10,7 @@ export default function NewsSection() {
             <a href="#" className="font-inter-semibold text-sm block lg:hidden">See all</a>
           </div>
           <div className="news-wrapper flex flex-col lg:flex-row justify-between items-center mt-3">
-            <ContentCard />
+            <ContentCard animation={cardAnimation} />
             <ContentCard />
             <ContentCard />
             <ContentCard />
