@@ -1,4 +1,5 @@
 import ArticleSection from '@/components/ArticleSection'
+import Drawer from '@/components/Drawer'
 import Footer from '@/components/Footer'
 import HeroSection from '@/components/HeroSection'
 import MetaTag from '@/components/MetaTag'

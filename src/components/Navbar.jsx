@@ -1,6 +1,7 @@
 import Image from "next/image";
 import NavMenu from "./partials/NavMenu";
 import { useEffect } from "react";
+import Drawer from "./Drawer";
 
 export default function Navbar() {
     useEffect(() => {
@@ -77,6 +78,7 @@ export default function Navbar() {
                         />
                         <NavMenu text={'Galeri'} target={'/galeri'} />
                     </div>
+                    <Drawer />
                 </div>
             </div>
         </nav>

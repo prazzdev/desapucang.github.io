@@ -16,9 +16,9 @@ export default function Footer() {
             <div className="mb-5 lg:mb-0">
                 <h1 className="font-inter-bold text-md lg:text-xl mb-1 lg:mb-3">Kategori</h1>
                 <div className="flex items-center flex-wrap">
-                    <a href="" className="text-xs lg:text-[.9em] py-1 lg:py-2 px-3 lg:px-6 bg-[#2E3D45] mr-3">Berita Desa</a>
-                    <a href="" className="text-xs lg:text-[.9em] py-1 lg:py-2 px-3 lg:px-6 bg-[#2E3D45] mr-3">Layanan Mandiri</a>
-                    <a href="" className="text-xs lg:text-[.9em] py-1 lg:py-2 px-3 lg:px-6 bg-[#2E3D45] mr-3">Data Desa</a>
+                    <a href="" className="text-xs lg:text-[.9em] py-1 lg:py-2 px-3 lg:px-6 bg-[#2E3D45] mr-3 mb-3">Berita Desa</a>
+                    <a href="" className="text-xs lg:text-[.9em] py-1 lg:py-2 px-3 lg:px-6 bg-[#2E3D45] mr-3 mb-3">Layanan Mandiri</a>
+                    <a href="" className="text-xs lg:text-[.9em] py-1 lg:py-2 px-3 lg:px-6 bg-[#2E3D45] mr-3 mb-3">Data Desa</a>
                 </div>
             </div>
             <div className="flex flex-col items-center lg:items-start font-inter-reg mt-5 lg:mt-0">
