@@ -14,14 +14,14 @@ export default function Home() {
       <MetaTag />
     </Head>
     <Navbar />
-    <main>
+    <main className="pb-0 lg:pb-10">
       <HeroSection />
       <OverlayMenuSection />
       <NewsSection />
       <div className="h-[2px] bg-gray-400 mt-[3em] mx-[4em]" />
       <ArticleSection />
-      <Footer />
     </main>
+    <Footer />
     </>
   )
 }

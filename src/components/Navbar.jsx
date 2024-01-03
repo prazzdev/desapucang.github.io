@@ -25,7 +25,7 @@ export default function Navbar() {
     }, [])
     return (
         <>
-        <nav className="flex flex-col bg-[#EEEEEE] overflow-x-hidden">
+        <nav className="fixed lg:static top-0 left-0 right-0 flex flex-col bg-[#EEEEEE] overflow-x-hidden">
             <div className="flex justify-between items-center lg:my-9 px-3 lg:px-[6em] py-3 lg:py-0 bg-red-">
                 <a 
                     href="/" id="logo" 
