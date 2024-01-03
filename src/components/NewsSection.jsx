@@ -7,7 +7,7 @@ export default function NewsSection() {
         <section id="news" className="px-5 lg:px-[4em] pt-2 lg:pt-[2em] mt-2 lg:mt-4">
           <div className="flex flex-row justify-between items-center">
             <h1 className="font-inter-bold text-xl">Berita</h1>
-            <a href="#" className="block lg:hidden">See all</a>
+            <a href="#" className="font-inter-semibold text-sm block lg:hidden">See all</a>
           </div>
           <div className="news-wrapper flex flex-col lg:flex-row justify-between items-center mt-3">
             <ContentCard />

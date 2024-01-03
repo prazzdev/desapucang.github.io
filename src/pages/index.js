@@ -18,7 +18,7 @@ export default function Home() {
       <HeroSection />
       <OverlayMenuSection />
       <NewsSection />
-      <div className="h-[2px] bg-gray-400 mt-[3em] mx-[4em]" />
+      <div className="h-[2px] bg-gray-400 mt-[.5em] lg:mt-[3em] mx-[4em]" />
       <ArticleSection />
     </main>
     <Footer />
