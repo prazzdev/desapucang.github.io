@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function OverlayMenuSection() {
     return (
         <>
-        <section id="overlay-menu" className="max-w-fit lg:max-w-[85vw] flex flex-row justify-around mx-auto lg:-mt-[5em] px-[7em] pl-[21em] lg:pl-[7em] py-9 bg-gray-200 shadow-lg overflow-x-scroll">
+        <section id="overlay-menu" className="max-w-[100vw] lg:max-w-[85vw] flex flex-row lg:justify-around items-center mx-auto lg:-mt-[5em] py-7 lg:py-9 px-3 lg:px-0 bg-gray-200 shadow-lg overflow-x-scroll">
           <div className="menu flex flex-col justify-center items-center min-w-[190px] lg:min-w-[250px] py-6 px-5 lg:px-[3.5em] mx-3 lg:mx-0 bg-gray-300 hover:bg-gray-400 hover:shadow-xl transition-all rounded-xl">
             <figure className={`bg-blue-400 p-5 lg:p-6 rounded-full`}>
                 <Image 
