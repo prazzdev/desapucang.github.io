@@ -17,4 +17,4 @@ Tugas Mata Kuliah **Interaksi Manusia & Komputer** Semester 5:
 3. DaisyUI
 
 Website Resmi Balai Desa Pucang <a href="https://www.desapucang-banjarnegara.com" target="_blank">Klik disini</a> <br />
-Project Website Balai Desa Pucang Tugas Matkul <a href="https://www.desapucang.vercel.app" target="_blank">Klik disini</a>
+Project Website Balai Desa Pucang Tugas Matkul <a href="http://www.desapucang.vercel.app" target="_blank">Klik disini</a>
