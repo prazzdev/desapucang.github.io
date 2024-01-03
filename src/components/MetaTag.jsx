@@ -7,7 +7,7 @@ export default function MetaTag({ title }) {
     }
     return (
         <>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>{pageTitle}</title>
         <meta name="title" content="Desa Pucang, Kec. Bawang, Kab. Banjarnegara | Unofficial Website" />
