@@ -51,7 +51,9 @@ const Drawer = () => {
                         </ul>
                         </details>
                     </li>
+                    <li><Link href='/peta-desa'>Peta Desa</Link></li>
                     <li><Link href='/galeri'>Galeri</Link></li>
+                    <li><Link href='/kontak'>Hubungi Kami</Link></li>
                 </ul>
             </div>
         </div>

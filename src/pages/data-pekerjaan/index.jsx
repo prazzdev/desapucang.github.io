@@ -6,7 +6,7 @@ const Index = () => {
     return (
         <MainLayout title="Data Pekerjaan">
             <Section title="Data Pekerjaan">
-                <p>INI PAGE DATA PEKERJAAN</p>
+                <p>Halaman ini berisi Data Pekerjaan.</p>
             </Section>
         </MainLayout>
     );

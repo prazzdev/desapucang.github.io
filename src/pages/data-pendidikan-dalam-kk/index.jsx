@@ -6,7 +6,7 @@ const Index = () => {
     return (
         <MainLayout title="Data Pendidikan dalam KK">
             <Section title="Data Pendidikan dalam KK">
-                <p>INI PAGE DATA PENDIDIKAN DALAM KK</p>
+                <p>Halaman ini berisi Data Pedidikan dalam KK.</p>
             </Section>
         </MainLayout>
     );

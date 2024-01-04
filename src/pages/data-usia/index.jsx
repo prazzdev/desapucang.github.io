@@ -6,7 +6,7 @@ const Index = () => {
     return (
         <MainLayout title="Data Usia">
             <Section title="Data Usia">
-                <p>INI PAGE DATA USIA</p>
+                <p>Halaman ini berisi Data Usia Penduduk Desa Pucang.</p>
             </Section>
         </MainLayout>
     );

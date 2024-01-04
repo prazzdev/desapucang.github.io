@@ -7,7 +7,7 @@ const Index = () => {
         <>
         <MainLayout title="Data Wilayah Administratif">
             <Section title="Data Wilayah Administratif">
-                <p>INI PAGE DATA WILAYAH ADMINISTRATIF</p>
+                <p>Halaman ini berisi Data Wilayah Administratif meliputi daftar Dusun, RT, RW, KK dan Gender.</p>
             </Section>
         </MainLayout>
         </>
